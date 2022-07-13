@@ -1,0 +1,38 @@
+@media screen and (max-width:600px){
+
+    .navbar{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+	    background: #24272B;
+	    border-radius: 10px;
+    }
+
+    .div-login{
+        text-align: center;
+        justify-content: center;
+        height: 30px;
+        max-width: 100%;
+    }
+
+    .login{
+        text-align: center;
+    }
+
+    
+
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    h1{
+        color: white;
+    }
+
+    #health{
+        color: #3E78B2;
+    }
+    
+}
