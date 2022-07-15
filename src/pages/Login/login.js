@@ -1,11 +1,13 @@
 import React from "react";
-import Header from "../../components/header";
-import "./login.css";
+import Header from "../../components/Header/header";
+import LogClient from "../../components/logclient";
+
 
 function Login(){
     return(
         <>
             <Header></Header>
+            <LogClient></LogClient>
         </>
     )
 }

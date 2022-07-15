@@ -9,12 +9,32 @@
         border-radius: 10px;
     }
 
-    
-
     #img1{
-        justify-content: center;
-        border-radius: 10px;
+        transform: translate(0px);
+        animation: float 5s ease-in-out infinite;
+        margin-top: 4px;
+          padding: 20px; 
+        border-radius: 30px;
+
+    
     }
+
+    @keyframes float{
+
+        0%{
+            transform: translatey(0px);
+    
+        }
+        50%{
+            transform: translatey(-30px);
+        }
+        100%{
+            transform: translatey(0px);
+        }
+    
+    }
+    
+ 
 
     .summary{
         padding: 10px;
